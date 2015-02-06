@@ -16,10 +16,10 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-    public void zuwi(){
-        // hola abde
+    public void zuwi(){}
+    public void gmar(){
+        // hola soc l'abde
     }
-    public void gmar(){}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
