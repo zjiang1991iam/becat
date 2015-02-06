@@ -18,6 +18,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void zuwi(){
         // hola soc el zhuwei
+        int abde = 0;
     }
     public void gmar(){
     }
