@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="org.insbaixcamp.becat" >
+=======
+<<<<<<< HEAD
+    package="com.example.myadmin.becat" >
+=======
+    package="org.insbaixcamp.becat" >
+>>>>>>> 0cd4f992f2b440bbb294d18341b8859365d4b7ce
+>>>>>>> 525e58d0c23c5f4079079ddaaf250cbe5d5a4338
 
     <application
         android:allowBackup="true"
