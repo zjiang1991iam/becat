@@ -21,6 +21,7 @@ public class MainActivity extends ActionBarActivity {
         int abde = 0;
     }
     public void gmar(){
+        int hola = 0;
     }
 
     @Override
