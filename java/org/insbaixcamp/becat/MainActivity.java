@@ -15,9 +15,9 @@ public class MainActivity extends ActionBarActivity {
         // hola soc l'abde
     }
 
-    public void hola(){
-        //abde
-    }
+
+
+    public void gmar(){}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
