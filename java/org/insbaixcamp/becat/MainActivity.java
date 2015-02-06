@@ -16,7 +16,9 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-    public void zuwi(){}
+    public void zuwi(){
+        // hola abde
+    }
     public void gmar(){}
 
     @Override
