@@ -15,8 +15,8 @@ public class MainActivity extends ActionBarActivity {
         // hola soc l'abde
     }
 
-    public void abde(){
-        // hola abde
+    public void hola(){
+        //abde
     }
 
     @Override
