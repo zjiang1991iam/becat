@@ -12,16 +12,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // hola soc l'abde
-    }
-
-
-    public void zuwi(){
-        // hola soc el zhuwei
-        int abde = 0;
-    }
-    public void gmar(){
-        int hola = 0;
     }
 
     @Override
