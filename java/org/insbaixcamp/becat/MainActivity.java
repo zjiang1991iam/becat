@@ -4,14 +4,38 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import org.insbaixcamp.becat.classes.MyOnClickListener;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    ImageView ivPregunta;
+    TextView tvPregunta;
+    Button bPregunta1;
+    Button bPregunta2;
+    Button bPregunta3;
+    Button bPregunta4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ivPregunta = (ImageView) findViewById(R.id.ivPregunta);
+        tvPregunta = (TextView) findViewById(R.id.tvPregunta);
+        bPregunta1 = (Button) findViewById(R.id.bResposta1);
+        bPregunta2 = (Button) findViewById(R.id.bResposta2);
+        bPregunta3 = (Button) findViewById(R.id.bResposta3);
+        bPregunta4 = (Button) findViewById(R.id.bResposta4);
+
+        bPregunta1.setOnClickListener(new MyOnClickListener(bPregunta1,""));
+        bPregunta2.setOnClickListener(new MyOnClickListener(bPregunta2,""));
+        bPregunta3.setOnClickListener(new MyOnClickListener(bPregunta3,""));
+        bPregunta4.setOnClickListener(new MyOnClickListener(bPregunta4,""));
     }
 
     @Override
